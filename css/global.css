@@ -1,0 +1,93 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(43, 101, 57);
+    display: flex;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.cabecalho{
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.titulo{
+    color: chartreuse;
+    font-size: 35px;
+    cursor: pointer;
+   
+}
+
+
+
+.titulo span{
+    color: chocolate;
+}
+
+.cabecalho nav{
+    position: relative;
+    left: 400px;
+   
+    
+}
+
+
+.cabecalho nav ul{
+    display: flex;
+    
+}
+
+.cabecalho nav li{
+    margin-right: 30px;
+    list-style-type: none;
+   
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.cabecalho li:hover{
+    transform: translateY(-5px);
+    transition: all 0,02s;
+    
+}
+
+/* Menu de sobre, com várias opçoes*/
+.menu_sob a{
+    display: flex;
+    margin-top: 5px;
+}
+
+.menu_sob{
+    display: none;
+}
+
+
+
+.sobre ,
+.menu_sob a:hover{
+    display: flex;
+    transform: translateY(-3px);
+    transition: all 0.02s;
+
+}
+
+
+
+
+
+
+
+
+
