@@ -1,3 +1,25 @@
+@media (max-width: 480px) {
+  /* Deixar os cads em coluna */
+    .todo_apre{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .apre_prod div{
+        align-items: center;
+        width: 225px;
+        height: 250px;
+        margin-right: 100px;
+        
+      
+        
+    }
+
+   
+    
+
+
 *{
    margin: 0;
    padding: 0;
